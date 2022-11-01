@@ -42,8 +42,8 @@ body {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
-  color: #fff;
-  background-color: #2fa0f6;
+  color: rgb(172, 26, 26);
+  background-color: #000000;
   min-width: 120px;
   padding: 0.5rem 1rem;
   border-radius: 2px;
@@ -55,7 +55,7 @@ body {
   vertical-align: middle;
   width: 4px;
   height: 4px;
-  fill: #fff;
+  fill: rgb(158, 16, 16);
 }
 
 .button span {
@@ -74,14 +74,17 @@ body {
 }
 
 .brand{
-    color: rgb(68, 34, 34);
-    font-style: italic;
     user-select: none;
 }
 
 .home{
     margin-top: 25px;
     margin-left: -40px;
+    transition: transform 0.5s;
+}
+
+.home:hover { 
+  transform: scale(0.8); 
 }
 
 /* navbar ends here */
@@ -100,7 +103,7 @@ body {
   
   .card {
     margin: 30px auto;
-    width: 500px;
+    width: 400px;
     height: 500px;
     border-radius: 40px;
   box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
@@ -167,6 +170,7 @@ body {
 
 .abitabtme{
     margin-top: 440px;
+    
 }
 
 .abtmetext{
@@ -182,15 +186,18 @@ body {
 
 
 
-body{
-    background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome */
-    background: linear-gradient(to right, #243B55, #141E30); /* Firefox */
+body {
+  background: -webkit-linear-gradient(to right, #141e30, #243b55); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #141e30, #243b55); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 
+body::-webkit-scrollbar {
+  width: 0em;
 }
 
 .hi{
     color: rgb(255, 203, 203);
-    text-align: right;
+    text-align: center;
     margin-top: 180px;
     font-size: 180;
     user-select: none;
@@ -201,5 +208,13 @@ body{
     text-align: center;
     margin-top: 80px;
     font-size: 120;
+    user-select: none;
+}
+
+.ambition{
+    color: rgb(255, 214, 214);
+    text-align: center;
+    margin-top: 80px;
+    font-size: 100;
     user-select: none;
 }
