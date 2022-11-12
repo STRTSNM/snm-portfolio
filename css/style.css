@@ -1,96 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
-.wrapper {
-  max-width: 1700px;
-  max-height: 100%;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-}
-
-a {
-  text-decoration: none;
-  color: #222;
-}
-
-html {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-body {
-  font-family: "Roboto", sans-serif;
-}
-
-.sr-only {
-  position: absolute;
-  clip: rect(0.1px, 0.1px, 0.1px, 0.1px);
-  padding: 0;
-  border: 0;
-  height: 1px;
-  width: 1px;
-  overflow: hidden;
-}
-
-.button {
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
-  color: rgb(172, 26, 26);
-  background-color: #000000;
-  min-width: 120px;
-  padding: 0.5rem 1rem;
-  border-radius: 2px;
-  text-align: center;
-}
-
-.button svg {
-  display: inline-block;
-  vertical-align: middle;
-  width: 4px;
-  height: 4px;
-  fill: rgb(158, 16, 16);
-}
-
-.button span {
-  display: none;
-}
-
-@media (min-width: 600px) {
-  .button span {
-    display: initial;
-  }
-}
-
-.button--icon {
-  min-width: initial;
-  padding: 0.5rem;
-}
-
-.brand{
-    user-select: none;
-}
-
-.home{
-    margin-top: 25px;
-    margin-left: -40px;
-    transition: transform 0.5s;
-}
-
-.home:hover { 
-  transform: scale(0.8); 
-}
-
-/* navbar ends here */
-
-
-
 
 .cards-list {
     margin-top: 100px;
@@ -110,12 +17,14 @@ body {
     cursor: pointer;
     transition: 0.4s;
     margin-bottom: 100px;
+    transform: translateX(0%);
+
   }
   
   .card .card_image {
     width: inherit;
     height: inherit;
-    background-color: #7b77b3;
+    background-color: #595681;
     border-radius: 40px;
   }
   
@@ -169,7 +78,7 @@ body {
 
 
 .abitabtme{
-    margin-top: 440px;
+    margin-top:900px;
     
 }
 
@@ -187,28 +96,45 @@ body {
 
 
 body {
-  background: -webkit-linear-gradient(to right, #141e30, #243b55); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #141e30, #243b55); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  margin: 0;
+  font-family: 'Prompt', sans-serif;
+  color: white;
+  background: #202731;
+  overflow-x: hidden;
+  animation: fadeIn 500ms reverse;
 }
 
 body::-webkit-scrollbar {
   width: 0em;
 }
 
+.intro{
+  position: relative;
+  height: 150px;
+  width: 150px;
+}
+
 .hi{
-    color: rgb(255, 203, 203);
+
+    color: rgb(255, 255, 255);
     text-align: center;
-    margin-top: 180px;
-    font-size: 180;
+    margin-top: -1000px;
+    font-size: 9vw;
     user-select: none;
+    transform: translateX(50%);
+    transform: translateY(50%);
+    z-index: 1;
+    position: relative;
 }
 
 .name{
-    color: rgb(255, 214, 214);
+    color: rgb(255, 255, 255);
     text-align: center;
-    margin-top: 80px;
-    font-size: 120;
+    font-size: 7vw;
     user-select: none;
+    z-index: 1;
+    position: relative;
+    margin-top: 100px;
 }
 
 .ambition{
@@ -217,4 +143,122 @@ body::-webkit-scrollbar {
     margin-top: 80px;
     font-size: 100;
     user-select: none;
+}
+
+.svg1{
+  width: 100%;
+  height: 300px;
+  z-index: -2;
+  object-fit: contain;
+}
+
+.svg2{
+  width: 100%;
+  height: 300px;
+  position: relative;
+}
+
+.blobmov{
+  margin-top: 100px;
+  left: 0%;
+}
+.blob{
+  margin: 0 auto;
+  right: 30%;
+}
+
+li {
+  padding-left: 1ch;
+  list-style: inside;
+  
+}
+li::marker{
+  content: "➽ ";
+  color: rgb(48, 11, 11);
+  font-size: 1ch;
+}
+
+.aboutme{
+    height: 800px;
+    width: 150vw;
+    background-color: #f81c68;
+    user-select: none;
+    font-size: 60px;
+    overflow: hidden;
+}
+.article__title{
+  left: 27%;
+  font-size: 100px;
+  text-shadow:1px 1px 10px #fff, 1px 1px 10px #ccc;
+  margin-top: -10px;
+  position: relative;
+}
+
+.abtmelist{
+  position: relative;
+  left: 4%;
+  margin-top: 60px;
+  color: #fff;
+  font-size: 50px;
+  z-index: 2;
+}
+.soclink{
+  color: #595681;
+  text-decoration: none;
+}
+
+.otherstuff{
+  margin-left: 28%;
+  margin-top: -90px;
+}
+
+.mybuttons{
+  margin-top: 50px;
+  margin-left: 23%;
+}
+.projbut{
+  margin-right: 100px;
+}
+.certbut{
+  margin-left: 100px;
+}
+
+
+/*Sphere animation start*/
+
+.animation-wrapper {
+  width: 30%;
+  padding-bottom: 40%;
+}
+
+.sphere-animation {
+  position: relative;
+  top: 40%;
+  left: 50%;
+  width: 200px;
+  height: -200px;
+  margin-top: 100px;
+  margin-left: 00px;
+  z-index: -1;
+}
+
+.sphere path {
+  fill: url(#sphereGradient);
+  stroke-width: 1px;
+  stroke: rgba(80,80,80,.35);
+  backface-visibility: hidden;
+  z-index: -2;
+}
+
+@media (min-width: 500px) {
+  .sphere path {
+    stroke-width: .4px;
+  }
+}
+
+
+.blob {
+  display: block;
+  margin-top: -50vh;
+  left: 90%;
 }
