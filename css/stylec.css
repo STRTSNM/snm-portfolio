@@ -1,46 +1,47 @@
 button {
-    padding: 1.5em 3em;
-    font-size: 12px;
-    text-transform: uppercase;
-    letter-spacing: 2.5px;
-    font-weight: 500;
-    color: #000;
-    background-color: rgb(91, 95, 150);
-    border: none;
-    border-radius: 45px;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease 0s;
-    cursor: pointer;
-    outline: none;
-  }
-  
-  button:hover {
-    background-color: #23c483;
-    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
-    color: #fff;
-    transform: translateY(-7px);
-  }
-  
-  button:active {
-    transform: translateY(-1px);
-  }
-  
-  body {
-    margin: 0;
-    font-family: 'Prompt', sans-serif;
-    color: white;
-    background: #202731;
-    overflow-x: hidden;
-    animation: fadeIn 500ms reverse;
-  }
-  
-  body::-webkit-scrollbar {
-    width: 0em;
-  }
+  padding: 1.5em 3em;
+  font-size: 1.3086150490730644vh;
+  text-transform: uppercase;
+  letter-spacing: 0.27262813522355506vh;
+  font-weight: 500;
+  color: #000;
+  background-color: rgb(91, 95, 150);
+  border: none;
+  border-radius: 4.907306434023991vh;
+  box-shadow: 0px 0.8724100327153762vh 1.6357688113413305vh rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  background-color: #23c483;
+  box-shadow: 0px 1.6357688113413305vh 2.1810250817884405vh rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-0.7633587786259542vh);
+}
+
+button:active {
+  transform: translateY(-0.10905125408942203vh);
+}
+
+body {
+  margin: 0;
+  font-family: 'Prompt', sans-serif;
+  color: white;
+  background: #202731;
+  overflow-x: hidden;
+  animation: fadeIn 500ms reverse;
+}
+
+body::-webkit-scrollbar {
+  width: 0em;
+}
+
 
 .titlee{
     text-align: center;
-    margin-top: 30px;
+    margin-top: 3.271537622682661vh;
     font-size: 5vw;
     user-select: none;
 }
@@ -50,7 +51,7 @@ button {
     width: 15vw;
     height: 38vh;
     background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
-    border-radius: 20px;
+    border-radius: 2.1810250817884405vh;
     transition: all .3s;
    }
    
@@ -58,18 +59,18 @@ button {
     width: 15vw;
     height: 38vh;
     background-color: #1a1a1a;
-    border-radius:10px;
+    border-radius:1.0905125408942202vh;
     transition: all .2s;
     position: relative;
    }
    
    .card2:hover {
     transform: scale(0.98);
-    border-radius: 20px;
+    border-radius: 2.1810250817884405vh;
    }
    
    .card:hover {
-    box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
+    box-shadow: 0px 0px 3.271537622682661vh 0.10905125408942203vh rgba(0, 255, 117, 0.30);
    }
    
    .cardtitle{
@@ -107,8 +108,8 @@ button {
 .allcards{
 	height: 20vh;
 	display: grid;
-	grid-template-columns: 50px 50px 50px 50px;
+	grid-template-columns: 5.452562704471101vh 5.452562704471101vh 5.452562704471101vh 5.452562704471101vh;
 	grid-column-gap: 50vh;
-    margin-top: 200px;
+    margin-top: 21.810250817884405vh;
     margin-left:3vw;
 }

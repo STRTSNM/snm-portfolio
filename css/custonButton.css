@@ -1,14 +1,14 @@
 button {
     padding: 2em 3em;
-    font-size: 12px;
+    font-size: 1.3086150490730644vh;
     text-transform: uppercase;
-    letter-spacing: 2.5px;
+    letter-spacing: 0.27262813522355506vh;
     font-weight: 500;
     color: #000;
     background-color: #fff;
     border: none;
-    border-radius: 45px;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 4.907306434023991vh;
+    box-shadow: 0px 0.8724100327153762vh 1.6357688113413305vh rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease 0s;
     cursor: pointer;
     outline: none;
@@ -18,9 +18,9 @@ button {
     background-color: #23c483;
     box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
     color: #fff;
-    transform: translateY(-7px);
+    transform: translateY(-0.7633587786259542vh);
   }
   
   button:active {
-    transform: translateY(-1px);
+    transform: translateY(-0.10905125408942203vh);
   }
